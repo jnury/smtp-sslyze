@@ -16,7 +16,7 @@ Get the SSLyze Docker image:
 
 Then simply copy the smtp-sslyze.py on your machine.
 
-## Usage
+## Usage
 
 To check the TLS capabilities of an email domain run:
 
