@@ -4,11 +4,11 @@ This small Python script aims to wrap the fantastic [SSLyze](https://github.com/
 
 The output is a simple Go/NoGo report intended to help you decide if you can send emails to this domain with a required level of security.
 
-SMTP-SSLLyze only check for TLS versions 1.2 and 1.3 (as other versions are deprecated).
+SMTP-SSLyze only check for TLS versions 1.2 and 1.3 (as other versions are deprecated).
 
 ## Installation
 
-SMTP-SSLLyze uses the Docker distribution of SSLyze, so you first need to [install Docker](https://docs.docker.com/get-docker/).
+SMTP-SSLyze uses the Docker distribution of SSLyze, so you first need to [install Docker](https://docs.docker.com/get-docker/).
 
 Get the SSLyze Docker image:
 
