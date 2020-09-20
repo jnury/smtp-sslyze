@@ -1,4 +1,4 @@
-# SMTP-SSLLyze
+# SMTP-SSLyze
 
 This small Python script aims to wrap the fantastic [SSLyze](https://github.com/nabla-c0d3/sslyze) tool to analyze MX servers's TLS capabilities of a given domain.
 
