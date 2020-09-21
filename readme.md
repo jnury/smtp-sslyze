@@ -8,19 +8,17 @@ SMTP-SSLyze only checks for TLS versions 1.2 and 1.3 (as other versions are depr
 
 ## Installation
 
-SMTP-SSLyze uses the Docker distribution of SSLyze, so you first need to [install Docker](https://docs.docker.com/get-docker/).
+SMTP-SSLyze is distributed as a Docker image, so you first need to [install Docker](https://docs.docker.com/get-docker/).
 
-Get the SSLyze Docker image:
+Then get the SMTP-SSLyze Docker image:
 
-    docker pull nablac0d3/sslyze
-
-Then simply copy the smtp-sslyze.py on your machine.
+    docker pull jnury/smtp-sslyze
 
 ## Usage
 
 To check the TLS capabilities of an email domain run:
 
-    ./smtp-sslyze.py domain.com
+    docker run --rm smtp-sslyze domain.com
 
 You'll get an output looking like
 
